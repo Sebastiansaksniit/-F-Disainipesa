@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Minu Infoveeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Minu Infoveeb</h1>
+        <nav>
+            <a href="#avaleht">Avaleht</a>
+            <a href="#tooted">Tooted</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="avaleht" class="block">
+        <h2>Tere tulemast!</h2>
+        <p>Siin lehel näed infot minu toodete kohta.</p>
+    </section>
+
+    <section id="tooted" class="block">
+        <h2>Tooted</h2>
+        <div class="tootekataloog">
+
+            <div class="toode">
+                <img src="pildid/toode1.jpg" alt="Toode 1">
+                <h3>Toode 1</h3>
+                <p>Lühikirjeldus tootest.</p>
+                <button onclick="avaInfo('Toode 1')">Küsi lisainfot</button>
+            </div>
+
+            <div class="toode">
+                <img src="pildid/toode2.jpg" alt="Toode 2">
+                <h3>Toode 2</h3>
+                <p>Lühikirjeldus tootest.</p>
+                <button onclick="avaInfo('Toode 2')">Küsi lisainfot</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="kontakt" class="block">
+        <h2>Kontakt</h2>
+        <form>
+            <label>Nimi</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Sõnum</label>
+            <textarea required></textarea>
+
+            <button type="submit">Saada</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

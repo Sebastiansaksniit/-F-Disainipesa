@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.block {
+    padding: 40px;
+}
+
+.tootekataloog {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.toode {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+}
+
+.toode img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
